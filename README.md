@@ -3,7 +3,7 @@
 A real-time DDoS and anomaly detection system built alongside Nextcloud.
 Monitors HTTP traffic, learns normal patterns, and automatically blocks attackers.
 
-![Tool Running](Tool%20Running.png)
+![Tool Running](screenshots/Tool-running.png)
 
 ---
 
@@ -19,7 +19,7 @@ Monitors HTTP traffic, learns normal patterns, and automatically blocks attacker
 
 ## Language Choice
 
-Built in **Python** because:
+Built in **Python programming language** because:
 - Rich standard library for data structures (`collections.deque`)
 - `psutil` for system metrics (CPU/memory)
 - `Flask` for lightweight dashboard
@@ -306,7 +306,7 @@ http://YOUR-SERVER-IP:8080
 ## Screenshots
 
 ### Tool Running
-![Tool Running](Tool%20Running.png)
+![Tool Running](screenshots/Tool-running.png)
 
 ### Dashboard
 ![Dashboard](screenshots/Dashboard.png)
