@@ -1,0 +1,31 @@
+slack:
+  webhook_url: "YOUR_SLACK_WEBHOOK_URL_HERE"
+
+detection:
+  window_seconds: 60
+  baseline_window_minutes: 30
+  recalculation_interval: 60
+  zscore_threshold: 1.5
+  rate_multiplier_threshold: 2.0
+  error_rate_multiplier: 3.0
+  min_baseline_samples: 3
+  baseline_floor: 1.0
+
+blocking:
+  unban_schedule:
+    - 600
+    - 1800
+    - 7200
+    - -1
+
+dashboard:
+  port: 9000
+  refresh_seconds: 3
+
+logging:
+  audit_log: "/home/ubuntu/detector-host/audit.log"
+  access_log: "/var/lib/docker/volumes/HNG-nginx-logs/_data/hng-access.log"
+
+whitelist:
+  - "127.0.0.1"
+  - "YOUR_SERVER_IP_HERE"
