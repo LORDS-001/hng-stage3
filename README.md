@@ -1,4 +1,4 @@
-# HNG Stage 3 — Anomaly Detection Engine
+# HNG Stage 3 - Anomaly Detection Engine
 
 A real-time DDoS and anomaly detection system built alongside Nextcloud.
 Monitors HTTP traffic, learns normal patterns, and automatically blocks attackers.
@@ -113,7 +113,7 @@ Same structure but tracks ALL requests regardless of source IP.
 ### Eviction Logic
 Every time a new request arrives:
 1. Add timestamp to right end of deque
-2. Check left end — is it older than 60 seconds?
+2. Check left end, is it older than 60 seconds?
 3. If yes → remove it
 4. Repeat until left end is within window
 5. Count remaining items = requests in last 60 seconds
@@ -130,7 +130,7 @@ Every 60 seconds the mean and standard deviation are recalculated
 from the rolling window and written to the audit log.
 
 ### Per-Hour Slots
-Traffic varies by hour — morning vs night. The system maintains
+Traffic varies by hour - morning vs night. The system maintains
 separate data per hour:
 
 ```python
