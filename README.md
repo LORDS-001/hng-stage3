@@ -3,7 +3,7 @@
 A real-time DDoS and anomaly detection system built alongside Nextcloud.
 Monitors HTTP traffic, learns normal patterns, and automatically blocks attackers.
 
-![Tools Running](Tools%20Running.png)
+![Tools Running](screenshots/Tools%20Running.png)
 
 ---
 
@@ -306,7 +306,7 @@ http://YOUR-SERVER-IP:8080
 ## Screenshots
 
 ### Tool Running
-![Tools Running](Tools%20Running.png)
+![Tools Running](screenshots/Tools%20Running.png)
 
 ### Dashboard
 ![Dashboard](screenshots/Dashboard.png)
