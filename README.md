@@ -68,6 +68,7 @@ The detector deliberately runs outside Docker because:
 
 ### Repository Structure
 
+```
 hng-stage3/
 ├── detector/
 │   ├── main.py           ← ties all components together
@@ -97,6 +98,7 @@ hng-stage3/
 │   └── Baseline-graph.png
 ├── docker-compose.yml
 └── README.md
+```
 
 ---
 
